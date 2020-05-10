@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\VSSolutionFiles">
+      <UniqueIdentifier>{a05614e3-8ae6-42ca-beb2-b2f1aab0559b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VsSolutionFiles">
+      <UniqueIdentifier>{dc0b431e-ab0c-478a-af60-14ba8d8298ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LibraryImplementation">
+      <UniqueIdentifier>{56c6646a-6b2f-4c55-861c-2080536c92ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LibraryImplementation\Filelogger">
+      <UniqueIdentifier>{2b136742-bc2b-4076-a12c-d2c9119c95b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LibraryImplementation\Filelogger\Utility">
+      <UniqueIdentifier>{8a3d17d5-f25e-469a-bece-42df1868e9b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LibraryImplementation\Filelogger\XMLServer">
+      <UniqueIdentifier>{f6753d57-5556-4951-aba8-c36de0df7a6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LibraryImplementation\Essentials">
+      <UniqueIdentifier>{b5ee2e29-791f-4af7-9da4-4212589dce3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LibraryImplementation">
+      <UniqueIdentifier>{9b4de806-263d-4a45-82a8-1cd38a249f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LibraryImplementation\Filelogger">
+      <UniqueIdentifier>{07b6f0be-ca3e-4d4e-82a4-42ad1d408fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LibraryImplementation\Essentials">
+      <UniqueIdentifier>{1d3759ba-5790-4fcb-9e42-cc6eaffb38f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoggerDLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files\VSSolutionFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ExportConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ILogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LoggerImplementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LoggerLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StaticLogging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LibraryImplementation\Filelogger\Lv490XMLServer\XMLParserConfigConverter.h">
+      <Filter>Header Files\LibraryImplementation\Filelogger\XMLServer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LibraryImplementation\Filelogger\filelogger_StreamModes.h">
+      <Filter>Header Files\LibraryImplementation\Filelogger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LibraryImplementation\Filelogger\filelogger_Messages.h">
+      <Filter>Header Files\LibraryImplementation\Filelogger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LibraryImplementation\Filelogger\filelogger.h">
+      <Filter>Header Files\LibraryImplementation\Filelogger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LibraryImplementation\Filelogger\Utility\ConcQueue.h">
+      <Filter>Header Files\LibraryImplementation\Filelogger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LibraryImplementation\Essentials\LogFundamentals.h">
+      <Filter>Header Files\LibraryImplementation\Essentials</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files\VsSolutionFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files\VsSolutionFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LibraryImplementation\Filelogger\filelogger_StreamModes.cpp">
+      <Filter>Source Files\LibraryImplementation\Filelogger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LibraryImplementation\Filelogger\filelogger_Messages.cpp">
+      <Filter>Source Files\LibraryImplementation\Filelogger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LibraryImplementation\Filelogger\filelogger_FileManager.cpp">
+      <Filter>Source Files\LibraryImplementation\Filelogger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LibraryImplementation\Filelogger\filelogger.cpp">
+      <Filter>Source Files\LibraryImplementation\Filelogger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LibraryImplementation\Filelogger\StaticFilelogger.cpp">
+      <Filter>Source Files\LibraryImplementation\Filelogger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LibraryImplementation\Essentials\LogFundamentals.cpp">
+      <Filter>Source Files\LibraryImplementation\Essentials</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
